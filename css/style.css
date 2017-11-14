@@ -1,0 +1,299 @@
+body {
+	background-color: #292929;
+	max-width: 100% !important;
+
+		
+}
+
+#containerbody {
+	border: 1px solid red;
+	width: 100%;
+}
+
+nav {
+height: 120px;
+}
+
+#logo {
+	height: 100px;
+	margin-left: 70px;
+	margin-top: 50px;
+
+}
+
+nav ul li {
+	display: inline;
+	color: white;
+	margin-left: 70px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+
+
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+
+
+#navbar {
+	margin-left: 950px;
+	margin-top: 50px;
+	font-size: 1em;
+}
+
+.jumbotron {
+	background-color: #292929;
+}
+
+.container {
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-top: 50px;
+}
+
+#cdcover {
+	margin-left: 200px;
+	margin-top: -300px;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+}
+
+.btn {
+	border-color: white;
+	color: white;
+	margin-top: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.btn:hover {
+	font-weight: bold !important;
+	text-decoration: none;
+	color: white;
+	border: 1.3px solid white;
+}
+
+#stop {
+	margin-left: 10px;
+}
+
+#parrafo1 {
+	color: white;
+	font-family: 'Roboto', serif;
+	font-size: 1em;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 150px;
+	font-weight: lighter;
+
+}
+
+h4{
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 150px;
+	padding-top: 50px;
+	font-weight: lighter;
+}
+
+
+#news {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 0px;
+
+}
+
+.color {
+	background-color: #e55655;
+}
+
+
+.col-6 {
+	margin-top: -120px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#news1, #news2, #news3 {
+	width: 270px;
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+#news1, #news2, #news3:hover {
+	filter: none;
+
+}
+
+#dos {
+	margin-top: -200px;
+}
+
+h3 { 
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bolder;
+}
+
+p {
+	color: white;
+	font-size: 0.9m;
+	text-align: justify;
+}
+
+#textonews1 {
+	margin-left: 300px;
+	margin-top: -200px;
+	padding: 20px;
+	
+}
+
+#audio1 {
+	display: none;
+}
+
+
+.foto {
+	width: 300px;
+	border: 2px solid white;
+	margin-top: 20px;
+}
+
+.btn-secondary {
+	text-align: center;
+}
+
+.foto2 {
+	width: 300px;
+	border: 2px solid white;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+
+.containerform {
+	text-align: center;
+	margin-top: 100px;
+	background-color: white;
+	margin-left: 370px;
+	margin-right: 300px;
+	width: 700px;
+}
+
+
+h5 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: helvetica;
+	font-size: 2em;
+	color: #e55655;
+	font-family: 'Roboto Slab', serif;
+
+
+
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 50;
+  width: 300px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:600px;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:300px;
+  border:none;
+  background: #e55655;
+  color: white;
+  margin:20 20 20px;
+  padding-bottom:10px;
+  font-size:15px;
+  margin-bottom: 20px;
+  	font-family: 'Roboto Slab', serif;
+
+}
+
+#contact button[type="submit"]:hover {
+  background: white;
+  color: #e55655;
+  border: 1px solid #e55655;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
